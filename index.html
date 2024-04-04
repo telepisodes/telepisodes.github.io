@@ -1,7 +1,73 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+
+<head>
+  <title>Telepisodes API</title>
+  <meta name="description" content="Contains information about the usage of the API provided by Telepisodes" />
+  <meta name="keywords" content="telepisodes, api, watch series online" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1>Telepisodes<a href="#">API</a></h1>
+        <div class="slogan">API matters!</div>
+      </div>
+      
+    </div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <img class="paperclip" src="style/paperclip.png" alt="paperclip" />
+        <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Latest Update</h3>
+        <h4>API Updated</h4>
+        <h5>1st November 2023</h5>
+        <p>API was updated and temporarily stopped from accepting and approving new API requests. Soon it will open, after API issues are resolve.</p>
+        </div>
+        
+        <img class="paperclip" src="style/paperclip.png" alt="paperclip" />
+        <div class="sidebar">
+          <h3>Latest Blog</h3>
+          <h4>Where to Watch Series Online for Free Without Signing Up?</h4>
+          <h5>25 November 2023</h5>
+          <p>Sometimes you miss to watch your favorite shows on TV for some reason ...<br /><a href="https://telepisodes.org/blog/8-websites-to-watch-series-online-for-free-without-downloading-and-no-registration/">read more</a></p>
+        </div>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Welcome to the official telepisodes API documentation</h1>
+        <p>Telepisodes API was conceptualized to provide a better, safer and faster way in contributing link contents in the website. It is accessible for users of the site who wishes to contribute content to the site. 
+
+        </p>
+        <h2>Endpoint</h2>
+        <p>https://telepisodes.org/api/submit</p>
+        <h2>Method</h2>
+        <p>GET</p>
+        <h2>Parameters</h2>
+        <ul>
+          <li>key - [api key, request this key by sending an email to suggest@telepisodes.net with reason for using the API]</li>
+          <li>t - TVMaze ID (e.g. tvm1234) or TheMovieDB Id (e.g. tmd1234)</li>
+          <li>s - Season (integer)</li>
+          <li>e -	Episode (integer)</li>
+          <li>u - URL / Video link to submit</li>
+        </ul>
+        <h2>Note</h2>
+        <p>The site is protected by a 3rd party provider and rate limiting is in place. Do not ABUSE the API. Telepisodes implements a one strike policy where abusers are permanently banned from the site if 
+          identified as abusing the API or violating any guidelines of the site.
+        </p>
+      </div>
+    </div>
+    <div id="footer">
+      <p><a href="https://telepisodes.org">Telepisodes</a>. Established 2016</a></p>
+    </div>
+  </div>
 </body>
 </html>
